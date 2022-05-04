@@ -13,15 +13,30 @@ Suites tested:
 
 ------------------------------------------------------------------------------------------------------------------
 
+Installation: 
+- npm / node
+- selenium-webdriver
+- chai
+
+1. Download Node.js Installer. In a web browser, navigate to https://nodejs.org/en/download/
+2. Install Node.js and NPM using NodeJS setup wizard
+3. Verify installation: node -v ; npm -v
+4. To install Selenium Webdriver, run npm install selenium-webdriver.
+5. Find and install browser drivers on https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/
+4. Chai assertation library package is available through npm. Just run "npm install chai"
+
+------------------------------------------------------------------------------------------------------------------
+
 Smoke test / code part
 - Loading of the site and its content
 - Try using the search option, clicking and expecting results to contain the word typed
 - Zoom in and out of the integrated map
 - Enter the category section
 - Enter one of the objects and test if it shows on the map
+- Test whether the place address matches the address shown on map
 - Enter adding a feedback page
 - Enter creating a place page
-- Test translating options back and forth
+- Test translating options back and forth and check the placeholder language
 	
 Smoke test - positive | pass
 
